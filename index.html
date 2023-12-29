@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Simulador de Venta de Figuras de Acción</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Simulador de Venta de Figuras de Acción</h1>
+    </header>
+
+    <section class="container my-4">
+        <h2 class="mb-4">Figuras de Acción Disponibles</h2>
+
+        <div id="figuras-container" class="row">
+            
+        </div>
+    </section>
+
+    <button id="btnMostrarCarrito" class="btn btn-info">Mostrar Carrito</button>
+
+    <div id="carrito" class="carrito-container">
+        <div class="carrito-header">
+            <h3>Carrito de Compras</h3>
+            <button id="btnCerrarCarrito" class="btn btn-danger">Cerrar</button>
+        </div>
+        <div id="carrito-contenido" class="carrito-contenido">
+            
+        </div>
+        <div class="carrito-footer">
+            <button class="btn btn-success" onclick="realizarCompra()">Realizar Compra</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="JS/app.js"></script>
+</body>
+</html>
+

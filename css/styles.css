@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor de figuras */
+.figura-contenedor {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Botón añadir al carrito */
+.btn-añadir-carrito {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-añadir-carrito:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor del carrito */
+#carrito {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+/* Contenido del carrito */
+.carrito-figura {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* Botón eliminar del carrito */
+.btn-eliminar-carrito {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-eliminar-carrito:hover {
+    background-color: #c9302c;
+}
+
+/* Botón mostrar carrito */
+#btnMostrarCarrito {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+#btnMostrarCarrito:hover {
+    background-color: #45a049;
+}
